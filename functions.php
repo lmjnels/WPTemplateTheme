@@ -1,0 +1,1 @@
+<?php require 'sincere/start.php';
