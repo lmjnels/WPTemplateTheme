@@ -1,1 +1,1 @@
-<?php require 'sincere/start.php';
+<?php require_once get_template_directory() . '/sincere/start.php';
