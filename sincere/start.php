@@ -3,13 +3,15 @@
 // Enqueue CSS and JS in this function
 function sincere_script_enqueue(){
 
-	wp_enqueue_style('sincere', get_template_directory_uri() . '/assets/css/sincere.min.css');
+	wp_enqueue_style('sincere', get_template_directory_uri() . '/sincere/assets/css/sincere.min.css');
 
 	wp_enqueue_style('main', get_stylesheet_uri());
 
 	wp_enqueue_script('jquery', true);
  	
- 	wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/assets/js/custom.js', array(), '1.0.0', true);
+ 	wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/sincere/assets/js/custom.js', array(), '1.0
+ 	.0',
+	    true);
 
 }
 
